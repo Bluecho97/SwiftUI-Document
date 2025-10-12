@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5C364752E98367400FC925E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364722E98367400FC925E /* ContentView.swift */; };
+		B5C364762E98367400FC925E /* SwiftUIDocumentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364732E98367400FC925E /* SwiftUIDocumentApp.swift */; };
+		B5C364772E98367400FC925E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C364712E98367400FC925E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B5C364552E98366600FC925E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +33,12 @@
 		B5C364472E98366500FC925E /* SwiftUIDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C364542E98366600FC925E /* SwiftUIDocumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDocumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C3645E2E98366600FC925E /* SwiftUIDocumentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDocumentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C364712E98367400FC925E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C364722E98367400FC925E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5C364732E98367400FC925E /* SwiftUIDocumentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDocumentApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B5C364492E98366500FC925E /* SwiftUIDocument */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIDocument;
-			sourceTree = "<group>";
-		};
 		B5C364572E98366600FC925E /* SwiftUIDocumentTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftUIDocumentTests;
@@ -75,7 +79,7 @@
 		B5C3643E2E98366500FC925E = {
 			isa = PBXGroup;
 			children = (
-				B5C364492E98366500FC925E /* SwiftUIDocument */,
+				B5C364742E98367400FC925E /* SwiftUIDocument */,
 				B5C364572E98366600FC925E /* SwiftUIDocumentTests */,
 				B5C364612E98366600FC925E /* SwiftUIDocumentUITests */,
 				B5C364482E98366500FC925E /* Products */,
@@ -92,6 +96,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B5C364742E98367400FC925E /* SwiftUIDocument */ = {
+			isa = PBXGroup;
+			children = (
+				B5C364792E98368400FC925E /* SwiftUIComponent */,
+				B5C364712E98367400FC925E /* Assets.xcassets */,
+				B5C364722E98367400FC925E /* ContentView.swift */,
+				B5C364732E98367400FC925E /* SwiftUIDocumentApp.swift */,
+			);
+			path = SwiftUIDocument;
+			sourceTree = "<group>";
+		};
+		B5C364792E98368400FC925E /* SwiftUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftUIComponent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +128,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B5C364492E98366500FC925E /* SwiftUIDocument */,
 			);
 			name = SwiftUIDocument;
 			packageProductDependencies = (
@@ -212,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C364772E98367400FC925E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C364752E98367400FC925E /* ContentView.swift in Sources */,
+				B5C364762E98367400FC925E /* SwiftUIDocumentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
