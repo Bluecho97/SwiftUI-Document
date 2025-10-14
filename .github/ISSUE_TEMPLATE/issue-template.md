@@ -12,8 +12,10 @@ assignees: Bluecho97
 
 
 
+
 ## 📄 Description.
 > 작업 배경(목적, 이유 등)에 대해서 설명을 적어주세요.
+
 
 
 
@@ -23,7 +25,6 @@ assignees: Bluecho97
 - [ ] ToDo1
 - [ ] ToDo2
 - [ ] ToDo3
-
 
 
 ## 💫 ETC.
