@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */; };
+		B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */; };
 		B5C364752E98367400FC925E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364722E98367400FC925E /* ContentView.swift */; };
 		B5C364762E98367400FC925E /* SwiftUIDocumentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364732E98367400FC925E /* SwiftUIDocumentApp.swift */; };
 		B5C364772E98367400FC925E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C364712E98367400FC925E /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
+		B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		B5C364472E98366500FC925E /* SwiftUIDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C364542E98366600FC925E /* SwiftUIDocumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDocumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C3645E2E98366600FC925E /* SwiftUIDocumentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDocumentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */,
+			);
+			path = SwiftUIComponent;
+			sourceTree = "<group>";
+		};
+		B53D9DF42E9E97C000F76A27 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		B5C3643E2E98366500FC925E = {
 			isa = PBXGroup;
 			children = (
@@ -99,19 +119,13 @@
 		B5C364742E98367400FC925E /* SwiftUIDocument */ = {
 			isa = PBXGroup;
 			children = (
-				B5C364792E98368400FC925E /* SwiftUIComponent */,
+				B53D9DF42E9E97C000F76A27 /* Swift */,
+				B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */,
 				B5C364712E98367400FC925E /* Assets.xcassets */,
 				B5C364722E98367400FC925E /* ContentView.swift */,
 				B5C364732E98367400FC925E /* SwiftUIDocumentApp.swift */,
 			);
 			path = SwiftUIDocument;
-			sourceTree = "<group>";
-		};
-		B5C364792E98368400FC925E /* SwiftUIComponent */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SwiftUIComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */,
+				B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */,
 				B5C364752E98367400FC925E /* ContentView.swift in Sources */,
 				B5C364762E98367400FC925E /* SwiftUIDocumentApp.swift in Sources */,
 			);
