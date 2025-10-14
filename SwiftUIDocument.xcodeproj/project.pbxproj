@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5362D502E9ED63500ECAC27 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362D4F2E9ED63500ECAC27 /* ImageComponent.swift */; };
 		B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */; };
 		B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */; };
 		B5C364752E98367400FC925E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364722E98367400FC925E /* ContentView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5362D4F2E9ED63500ECAC27 /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
 		B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
 		B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		B5C364472E98366500FC925E /* SwiftUIDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,10 +82,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */ = {
+		B5362D4D2E9ED60300ECAC27 /* Text */ = {
 			isa = PBXGroup;
 			children = (
 				B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		B5362D4E2E9ED61100ECAC27 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B5362D4F2E9ED63500ECAC27 /* ImageComponent.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B5362D4D2E9ED60300ECAC27 /* Text */,
+				B5362D4E2E9ED61100ECAC27 /* Image */,
 			);
 			path = SwiftUIComponent;
 			sourceTree = "<group>";
@@ -273,6 +292,7 @@
 				B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */,
 				B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */,
 				B5C364752E98367400FC925E /* ContentView.swift in Sources */,
+				B5362D502E9ED63500ECAC27 /* ImageComponent.swift in Sources */,
 				B5C364762E98367400FC925E /* SwiftUIDocumentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
