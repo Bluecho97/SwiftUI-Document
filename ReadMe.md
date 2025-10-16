@@ -1,2 +1,4 @@
 # SwiftUIDocument
-This is Lucid's SwiftUI Document
+
+This is SwiftUI Document of Lucid! :)
+
