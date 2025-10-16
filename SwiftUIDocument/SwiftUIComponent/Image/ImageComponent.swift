@@ -12,9 +12,11 @@ struct ImageComponent: View {
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 36) {
+                
                 // MARK: - 1. SF Symbols
                 VStack(spacing: 16) {
-                    // 기본 SF Symbols
+                    
+                    // SF Symbols 기본
                     HStack {
                         Image(systemName: "chevron.left")
                         Image(systemName: "line.horizontal.3")
@@ -55,7 +57,6 @@ struct ImageComponent: View {
                 }
                 
                 Divider()
-                
                 
                 // MARK: - 2. 기본 이미지 불러오기
                 VStack(alignment: .center) {
