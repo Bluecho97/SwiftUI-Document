@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct AsyncImageComponent: View {
     var body: some View {
         // 통신 오류가 나면 아무것도 안나타남
@@ -25,6 +26,7 @@ struct AsyncImageComponent: View {
         }
     }
 }
+
 
 #Preview {
     AsyncImageComponent()
