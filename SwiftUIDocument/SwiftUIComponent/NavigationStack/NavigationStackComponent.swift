@@ -14,19 +14,23 @@ struct NavigationStackComponent: View {
 
     var body: some View {
         NavigationStack(path: $path) {
-            VStack(spacing: 20) {
-                Text("This is Main Page")
+            ZStack {
+                Color.blue.opacity(0.3).ignoresSafeArea()
                 
-                Button("Next Page") {
-                    path.append("First")
+                VStack(spacing: 20) {
+                    Text("This is Main Page")
+                    
+                    Button("Next Page") {
+                        path.append("First")
+                    }
                 }
-            }
-            .navigationDestination(for: String.self) { value in
-                switch value {
-//                case "First": FirstView(path: $path)
-//                case "Second": SecondView(path: $path)
-//                case "Third": ThirdView(path: $path)
-                default: Text("Invalid Page")
+                .navigationDestination(for: String.self) { value in
+                    switch value {
+                    case "First": FirstPage(path: $path)
+                    case "Second": SecondPage(path: $path)
+                    case "Third": ThirdPage(path: $path)
+                    default: Text("Invalid Page")
+                    }
                 }
             }
         }
