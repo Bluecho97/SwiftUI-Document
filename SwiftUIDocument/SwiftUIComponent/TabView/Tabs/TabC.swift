@@ -10,7 +10,7 @@ import SwiftUI
 struct TabC: View {
     var body: some View {
         ZStack {
-            Color.green.ignoresSafeArea(.all)
+            Color.green.opacity(0.3).ignoresSafeArea(.all)
             
             Text("This is Sample TabC!")
                 .font(.system(size: 24, weight: .semibold))
