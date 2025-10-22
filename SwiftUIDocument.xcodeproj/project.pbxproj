@@ -15,6 +15,7 @@
 		B5362EC02EA7B3B000ECAC27 /* TabB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362EBF2EA7B3B000ECAC27 /* TabB.swift */; };
 		B5362EC22EA7B3B900ECAC27 /* TabC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362EC12EA7B3B900ECAC27 /* TabC.swift */; };
 		B5362EC42EA7B4B900ECAC27 /* TabViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362EC32EA7B4B900ECAC27 /* TabViewComponent.swift */; };
+		B5362F242EA8FDEC00ECAC27 /* NavigationStackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F232EA8FDEC00ECAC27 /* NavigationStackComponent.swift */; };
 		B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */; };
 		B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */; };
 		B5C364752E98367400FC925E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364722E98367400FC925E /* ContentView.swift */; };
@@ -48,6 +49,7 @@
 		B5362EBF2EA7B3B000ECAC27 /* TabB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabB.swift; sourceTree = "<group>"; };
 		B5362EC12EA7B3B900ECAC27 /* TabC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabC.swift; sourceTree = "<group>"; };
 		B5362EC32EA7B4B900ECAC27 /* TabViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewComponent.swift; sourceTree = "<group>"; };
+		B5362F232EA8FDEC00ECAC27 /* NavigationStackComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackComponent.swift; sourceTree = "<group>"; };
 		B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
 		B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		B5C364472E98366500FC925E /* SwiftUIDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +157,22 @@
 			path = Tabs;
 			sourceTree = "<group>";
 		};
+		B5362F212EA8FD8E00ECAC27 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				B5362F222EA8FDB700ECAC27 /* Pages */,
+				B5362F232EA8FDEC00ECAC27 /* NavigationStackComponent.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
+		B5362F222EA8FDB700ECAC27 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +181,7 @@
 				B5362E112EA27A4100ECAC27 /* Button */,
 				B5362E632EA6656A00ECAC27 /* Padding */,
 				B5362EBB2EA7B32200ECAC27 /* TabView */,
+				B5362F212EA8FD8E00ECAC27 /* NavigationStack */,
 				B5362EBC2EA7B38400ECAC27 /* etc */,
 			);
 			path = SwiftUIComponent;
@@ -353,6 +372,7 @@
 				B5362EBE2EA7B3A300ECAC27 /* TabA.swift in Sources */,
 				B5362DC12EA1063E00ECAC27 /* AsyncImageComponent.swift in Sources */,
 				B5362EC42EA7B4B900ECAC27 /* TabViewComponent.swift in Sources */,
+				B5362F242EA8FDEC00ECAC27 /* NavigationStackComponent.swift in Sources */,
 				B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */,
 				B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */,
 				B5362E652EA6658400ECAC27 /* PaddingComponent.swift in Sources */,
