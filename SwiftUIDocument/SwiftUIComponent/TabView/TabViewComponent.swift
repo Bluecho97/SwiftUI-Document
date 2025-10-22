@@ -14,7 +14,7 @@ struct TabViewComponent: View {
     
     var body: some View {
         TabView(selection: $tabSelection) {
-            SampleViewA()
+            TabA()
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("홈")
@@ -25,14 +25,14 @@ struct TabViewComponent: View {
 //                .tabItem { Label("홈", systemImage: "house") }
 //                .tag(0)
             
-            SampleViewB()
+            TabB()
                 .tabItem {
                     Image(systemName: "pentagon.fill")
                     Text("혜택")
                 }.tag(1)
                 .toolbarBackground(.white, for: .tabBar)
             
-            SampleViewC()
+            TabC()
                 .tabItem {
                     Image(systemName: "bag.fill")
                     Text("쇼핑")

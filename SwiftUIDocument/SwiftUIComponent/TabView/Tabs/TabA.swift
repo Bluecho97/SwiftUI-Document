@@ -1,5 +1,5 @@
 //
-//  SampleViewB.swift
+//  SampleViewA.swift
 //  SwiftUIDocument
 //
 //  Created by Lucid on 10/21/25.
@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct SampleViewB: View {
+struct TabA: View {
     var body: some View {
         ZStack {
-            Color.yellow.ignoresSafeArea(.all)
+            Color.blue.opacity(0.3).ignoresSafeArea(.all)
             
-            Text("This is Sample ViewB!")
+            Text("This is Sample TabA!")
                 .font(.system(size: 24, weight: .semibold))
         }
     }
 }
 
 #Preview {
-    SampleViewB()
+    TabA()
 }
