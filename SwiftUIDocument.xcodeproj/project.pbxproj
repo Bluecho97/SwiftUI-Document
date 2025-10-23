@@ -19,6 +19,7 @@
 		B5362F2C2EA8FEB400ECAC27 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F2B2EA8FEB400ECAC27 /* FirstPage.swift */; };
 		B5362F2E2EA8FEBA00ECAC27 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F2D2EA8FEBA00ECAC27 /* SecondPage.swift */; };
 		B5362F302EA8FEC000ECAC27 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F2F2EA8FEC000ECAC27 /* ThirdPage.swift */; };
+		B5362F7B2EAA545600ECAC27 /* SliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */; };
 		B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */; };
 		B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */; };
 		B5C364752E98367400FC925E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364722E98367400FC925E /* ContentView.swift */; };
@@ -56,6 +57,7 @@
 		B5362F2B2EA8FEB400ECAC27 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		B5362F2D2EA8FEBA00ECAC27 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 		B5362F2F2EA8FEC000ECAC27 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
+		B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SliderComponent.swift; path = SwiftUIDocument/SwiftUIComponent/SliderComponent.swift; sourceTree = SOURCE_ROOT; };
 		B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
 		B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		B5C364472E98366500FC925E /* SwiftUIDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,11 +148,12 @@
 			path = TabView;
 			sourceTree = "<group>";
 		};
-		B5362EBC2EA7B38400ECAC27 /* etc */ = {
+		B5362EBC2EA7B38400ECAC27 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
+				B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */,
 			);
-			path = etc;
+			path = Slider;
 			sourceTree = "<group>";
 		};
 		B5362F202EA8FCBB00ECAC27 /* Tabs */ = {
@@ -191,7 +194,7 @@
 				B5362E632EA6656A00ECAC27 /* Padding */,
 				B5362EBB2EA7B32200ECAC27 /* TabView */,
 				B5362F212EA8FD8E00ECAC27 /* NavigationStack */,
-				B5362EBC2EA7B38400ECAC27 /* etc */,
+				B5362EBC2EA7B38400ECAC27 /* Slider */,
 			);
 			path = SwiftUIComponent;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				B5362F2E2EA8FEBA00ECAC27 /* SecondPage.swift in Sources */,
 				B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */,
 				B5362F302EA8FEC000ECAC27 /* ThirdPage.swift in Sources */,
+				B5362F7B2EAA545600ECAC27 /* SliderComponent.swift in Sources */,
 				B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */,
 				B5362E652EA6658400ECAC27 /* PaddingComponent.swift in Sources */,
 				B5C364752E98367400FC925E /* ContentView.swift in Sources */,
