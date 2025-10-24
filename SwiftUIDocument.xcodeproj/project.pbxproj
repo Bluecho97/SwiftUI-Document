@@ -20,6 +20,7 @@
 		B5362F2E2EA8FEBA00ECAC27 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F2D2EA8FEBA00ECAC27 /* SecondPage.swift */; };
 		B5362F302EA8FEC000ECAC27 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F2F2EA8FEC000ECAC27 /* ThirdPage.swift */; };
 		B5362F7B2EAA545600ECAC27 /* SliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */; };
+		B5362FD42EAC120100ECAC27 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362FD32EAC120100ECAC27 /* Colors.swift */; };
 		B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */; };
 		B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */; };
 		B5C364752E98367400FC925E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364722E98367400FC925E /* ContentView.swift */; };
@@ -58,6 +59,7 @@
 		B5362F2D2EA8FEBA00ECAC27 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 		B5362F2F2EA8FEC000ECAC27 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
 		B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SliderComponent.swift; path = SwiftUIDocument/SwiftUIComponent/SliderComponent.swift; sourceTree = SOURCE_ROOT; };
+		B5362FD32EAC120100ECAC27 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
 		B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		B5C364472E98366500FC925E /* SwiftUIDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +187,14 @@
 			path = Slider;
 			sourceTree = "<group>";
 		};
+		B5362FD22EAC11DE00ECAC27 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B5362FD32EAC120100ECAC27 /* Colors.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
 		B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +240,7 @@
 		B5C364742E98367400FC925E /* SwiftUIDocument */ = {
 			isa = PBXGroup;
 			children = (
+				B5362FD22EAC11DE00ECAC27 /* DesignSystem */,
 				B53D9DF42E9E97C000F76A27 /* Swift */,
 				B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */,
 				B5C364712E98367400FC925E /* Assets.xcassets */,
@@ -382,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5362EBE2EA7B3A300ECAC27 /* TabA.swift in Sources */,
+				B5362FD42EAC120100ECAC27 /* Colors.swift in Sources */,
 				B5362DC12EA1063E00ECAC27 /* AsyncImageComponent.swift in Sources */,
 				B5362EC42EA7B4B900ECAC27 /* TabViewComponent.swift in Sources */,
 				B5362F242EA8FDEC00ECAC27 /* NavigationStackComponent.swift in Sources */,
