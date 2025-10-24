@@ -148,14 +148,6 @@
 			path = TabView;
 			sourceTree = "<group>";
 		};
-		B5362EBC2EA7B38400ECAC27 /* Slider */ = {
-			isa = PBXGroup;
-			children = (
-				B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */,
-			);
-			path = Slider;
-			sourceTree = "<group>";
-		};
 		B5362F202EA8FCBB00ECAC27 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +177,14 @@
 			path = Pages;
 			sourceTree = "<group>";
 		};
+		B5362FC52EAC103900ECAC27 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
 		B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +194,7 @@
 				B5362E632EA6656A00ECAC27 /* Padding */,
 				B5362EBB2EA7B32200ECAC27 /* TabView */,
 				B5362F212EA8FD8E00ECAC27 /* NavigationStack */,
-				B5362EBC2EA7B38400ECAC27 /* Slider */,
+				B5362FC52EAC103900ECAC27 /* Slider */,
 			);
 			path = SwiftUIComponent;
 			sourceTree = "<group>";
