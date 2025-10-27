@@ -1,6 +1,6 @@
 ---
-name: Issue Template
-about: Describe this issue template's purpose here.
+name: Default Issue Template
+about: This is Default Issue Template about SwiftUI-Document.
 title: "[Feat] Issue Title"
 labels: ''
 assignees: Bluecho97
