@@ -1,6 +1,6 @@
 ---
 name: Default Issue Template
-about: This is Default Issue Template about SwiftUI-Document.
+about: This is Default Issue Template about SwiftUI-Document of Lucid.
 title: "[Feat] Issue Title"
 labels: ''
 assignees: Bluecho97
