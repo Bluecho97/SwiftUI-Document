@@ -22,6 +22,7 @@
 		B5362F7B2EAA545600ECAC27 /* SliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */; };
 		B5362FD42EAC120100ECAC27 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5362FD32EAC120100ECAC27 /* Colors.swift */; };
 		B53631522EB77DD700ECAC27 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53631512EB77DD700ECAC27 /* Fonts.swift */; };
+		B53632D22EBDD7D400ECAC27 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53632D12EBDD7D400ECAC27 /* NetworkRequest.swift */; };
 		B53D9DF02E9E971C00F76A27 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */; };
 		B53D9DF62E9E97F500F76A27 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */; };
 		B5C364752E98367400FC925E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C364722E98367400FC925E /* ContentView.swift */; };
@@ -62,6 +63,7 @@
 		B5362F7A2EAA545600ECAC27 /* SliderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SliderComponent.swift; path = SwiftUIDocument/SwiftUIComponent/SliderComponent.swift; sourceTree = SOURCE_ROOT; };
 		B5362FD32EAC120100ECAC27 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		B53631512EB77DD700ECAC27 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B53632D12EBDD7D400ECAC27 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		B53D9DEF2E9E971C00F76A27 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
 		B53D9DF52E9E97F500F76A27 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		B5C364472E98366500FC925E /* SwiftUIDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +200,22 @@
 			path = DesignSystem;
 			sourceTree = "<group>";
 		};
+		B53632982EBDD79700ECAC27 /* NetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				B53632D12EBDD7D400ECAC27 /* NetworkRequest.swift */,
+			);
+			path = NetworkRequest;
+			sourceTree = "<group>";
+		};
+		B53632992EBDD79700ECAC27 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B53632982EBDD79700ECAC27 /* NetworkRequest */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +264,7 @@
 				B5362FD22EAC11DE00ECAC27 /* DesignSystem */,
 				B53D9DF42E9E97C000F76A27 /* Swift */,
 				B53D9DEE2E9E970000F76A27 /* SwiftUIComponent */,
+				B53632992EBDD79700ECAC27 /* API */,
 				B5C364712E98367400FC925E /* Assets.xcassets */,
 				B5C364722E98367400FC925E /* ContentView.swift */,
 				B5C364732E98367400FC925E /* SwiftUIDocumentApp.swift */,
@@ -409,6 +428,7 @@
 				B5C364752E98367400FC925E /* ContentView.swift in Sources */,
 				B5362F2C2EA8FEB400ECAC27 /* FirstPage.swift in Sources */,
 				B5362E132EA27A5C00ECAC27 /* ButtonComponent.swift in Sources */,
+				B53632D22EBDD7D400ECAC27 /* NetworkRequest.swift in Sources */,
 				B5362EC02EA7B3B000ECAC27 /* TabB.swift in Sources */,
 				B5362EC22EA7B3B900ECAC27 /* TabC.swift in Sources */,
 				B5362D502E9ED63500ECAC27 /* ImageComponent.swift in Sources */,
